@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Basic_7(Tables)</title>
+    <style>
+        table{
+            width:100% ;
+            border-collapse: collapse;
+            text-align: center;
+            color:#ffffff
+
+        }
+        td, th{
+            border:1px solid #212121;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(44, 47, 83);
+        }
+        tr:nth-child(even){
+            background-color: rgb(165, 131, 187);
+        }
+        td{
+            background-color: #c3b4ea;
+        }
+    </style>
+  </head>
+  <body>
+    <h2><u>Tables</h2></u>
+    <h4>Emmet :</h4>
+    <p>
+      emmet is basically use to ib=ncress the production of the code and
+      programms. It's a shortcut methords to define the tags and fuctionality of
+      the code and programms.
+      <br />
+      In the simple language emmet is basically a shortcut methords to arrange
+      and define the functions and tags of the code and programms.
+    </p>
+    <p>
+      Not always depends on the emmets shortcut methods because they are
+      different for different applications for every applications it's different
+      or not used as same.
+    </p>
+    <p>
+        Coming to the table content......<br/>
+    </p>
+    <p>
+        To use table+ is in vs code is not applicable as shortcut methods.
+        so what should I use as shortcut approch....
+        <br />
+
+        we simply use table>tr>th or td * number.
+        <br />
+        As we see the table below
+    </p>
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Code</th>
+            <th>number</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>+91</td>
+            <td>7777777777</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>+1</td>
+            <td>9999999999</td>
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>+1</td>
+            <td>8888888888</td>
+        </tr>
+
+    </table>
+    <h3>
+        Td is the "table Data"
+        <br />
+        Tr is the "table Rows"
+        <br />
+        Th is the table heading
+    </h3>
+
+    <p>
+        if you want to change the layout of the table like heading using first and then data, you can do this also.
+    
+    </p>
+    <table>
+        <tr>
+            <th>Country</th>
+            <td>India</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <th colspan="2">Code</th>
+            <td>+91</td>
+            <td>+1</td>
+        </tr>
+    </table>
+    <p> calspan is the attribute to take the spaces of the digits accordingly.
+        for example 2 means 2 space of coloum.
+    </p>
+    <table>
+        <tr>
+            <th>
+                mdn document
+            </th>
+            <tr>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">mdn html document</a></td>
+            </tr>
+        </tr>
+    </table>
+  </body>
+</html>
